@@ -7,9 +7,11 @@ Ao deparar com o código GenerateBrownianMotion percebi alguns “problemas” c
 Criei estrutura de pastas para melhor organizar e simular um ambiente de produção com maior fidelidade (embora muitas estruturas estejam faltando, fiz dessa forma para representar apenas o que há de comum entre as camadas) 
 
 Android
+
 https://github.com/user-attachments/assets/446c0484-a61d-4e12-8805-01325a513add
 
 Windowns
+
 https://github.com/user-attachments/assets/53d75c07-2195-4e7b-8d25-d414e3ddba3a
 
 
