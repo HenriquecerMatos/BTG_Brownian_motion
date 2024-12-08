@@ -31,20 +31,18 @@ Embora os inputs principais tenham sido mantidos como campos numéricos, algumas
 
 ### Capturas de Tela (opcional)
 
-Adicione aqui imagens ou GIFs do funcionamento do projeto.
 
----
 
 Esse texto estruturado oferece clareza e detalhes técnicos suficientes para facilitar o entendimento do projeto e atrair contribuições de desenvolvedores. Caso tenha capturas de tela ou exemplos de uso, eles podem ser adicionados para complementar o README.
 
     
-Android
+###Android
 
 https://github.com/user-attachments/assets/446c0484-a61d-4e12-8805-01325a513add
 
-Windowns
+###Windowns
 
 https://github.com/user-attachments/assets/53d75c07-2195-4e7b-8d25-d414e3ddba3a
 
-
+---
 
