@@ -29,7 +29,7 @@ Embora os inputs principais tenham sido mantidos como campos numéricos, algumas
 
 ---
 
-### Capturas de Tela (opcional)
+### Capturas de Tela
    
 #Android
 
