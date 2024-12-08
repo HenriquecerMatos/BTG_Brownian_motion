@@ -1,25 +1,41 @@
-Sobre o Projeto
-Este projeto utiliza o pacote SkiaSharp para manipulação gráfica, escolhido por sua maior capacidade em comparação ao GraphicsView/IDrawable. Adicionalmente, foi integrado o CommunityToolkit para seguir o padrão MVVM, reduzindo códigos repetitivos e promovendo a implementação alinhada ao princípio DRY (Don't Repeat Yourself).
+## Sobre o Projeto
 
-Refatoração e Melhorias
-O método GenerateBrownianMotion foi analisado e refatorado devido a alguns problemas identificados, como:
+Este projeto utiliza o pacote **SkiaSharp** para manipulação gráfica, escolhido por sua maior capacidade em comparação ao **GraphicsView/IDrawable**. Adicionalmente, foi integrado o **CommunityToolkit** para seguir o padrão MVVM, reduzindo códigos repetitivos e promovendo a implementação alinhada ao princípio **DRY** (Don't Repeat Yourself).
 
-Falta de padronização nas nomenclaturas (mistura de idiomas e nomes pouco descritivos);
-Ausência de documentação clara (comentários e sumários);
-Isolamento do método, dificultando sua reutilização.
-As principais melhorias realizadas foram:
+### Refatoração e Melhorias
 
-Padronização e renomeação de variáveis e métodos com nomenclaturas consistentes e descritivas.
-Adição de comentários explicativos e sumários para facilitar a manutenção e a compreensão do código.
-Reestruturação do método, movendo-o para uma classe chamada Graphics. Essa centralização permite organizar e reutilizar lógicas relacionadas à geração de gráficos.
-Funcionalidades
-Foram implementados todos os requisitos obrigatórios e quase todos os opcionais. O requisito opcional para simulação de múltiplos resultados foi omitido, pois sua implementação poderia entrar em conflito com a funcionalidade de personalização do gráfico.
+O método `GenerateBrownianMotion` foi analisado e refatorado devido a alguns problemas identificados, como:  
+- Falta de padronização nas nomenclaturas (mistura de idiomas e nomes pouco descritivos);  
+- Ausência de documentação clara (comentários e sumários);  
+- Isolamento do método, dificultando sua reutilização.
 
-Entretanto, várias melhorias foram adicionadas para enriquecer a experiência do usuário, incluindo:
+As principais melhorias realizadas foram:  
+1. Padronização e renomeação de variáveis e métodos com nomenclaturas consistentes e descritivas.  
+2. Adição de comentários explicativos e sumários para facilitar a manutenção e a compreensão do código.  
+3. Reestruturação do método, movendo-o para uma classe chamada **Graphics**. Essa centralização permite organizar e reutilizar lógicas relacionadas à geração de gráficos.
 
-Grid e escala numérica para visualização mais clara dos dados.
-Botão de configuração para mostrar/ocultar opções de layout do gráfico.
-Suporte aos modos light e dark, respeitando a preferência do usuário.
+### Funcionalidades
+
+Foram implementados todos os requisitos obrigatórios e quase todos os opcionais. O requisito opcional para simulação de múltiplos resultados foi omitido, pois sua implementação poderia entrar em conflito com a funcionalidade de personalização do gráfico. 
+
+Entretanto, várias melhorias foram adicionadas para enriquecer a experiência do usuário, incluindo:  
+- **Grid** e **escala numérica** para visualização mais clara dos dados.  
+- **Botão de configuração** para mostrar/ocultar opções de layout do gráfico.  
+- Suporte aos modos **light** e **dark**, respeitando a preferência do usuário.
+
+### Configurações e Personalização
+
+Embora os inputs principais tenham sido mantidos como campos numéricos, algumas opções de layout foram configuradas com **sliders** e **steppers**, permitindo ajustes mais dinâmicos.
+
+---
+
+### Capturas de Tela (opcional)
+
+Adicione aqui imagens ou GIFs do funcionamento do projeto.
+
+---
+
+Esse texto estruturado oferece clareza e detalhes técnicos suficientes para facilitar o entendimento do projeto e atrair contribuições de desenvolvedores. Caso tenha capturas de tela ou exemplos de uso, eles podem ser adicionados para complementar o README.
 
     
 Android
