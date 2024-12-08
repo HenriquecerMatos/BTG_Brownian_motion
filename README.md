@@ -1,21 +1,25 @@
-Ao analisar a solicitação, optei por utilizar o pacote SkiaSharp, considerando sua maior capacidade em comparação ao GraphicsView/IDrawable para manipulação gráfica.
+Sobre o Projeto
+Este projeto utiliza o pacote SkiaSharp para manipulação gráfica, escolhido por sua maior capacidade em comparação ao GraphicsView/IDrawable. Adicionalmente, foi integrado o CommunityToolkit para seguir o padrão MVVM, reduzindo códigos repetitivos e promovendo a implementação alinhada ao princípio DRY (Don't Repeat Yourself).
 
-Como o projeto utiliza o padrão MVVM, adicionei o pacote CommunityToolkit para evitar códigos repetitivos e facilitar a implementação, alinhando-se ao princípio DRY (Don't Repeat Yourself).
+Refatoração e Melhorias
+O método GenerateBrownianMotion foi analisado e refatorado devido a alguns problemas identificados, como:
 
-Durante a análise do método GenerateBrownianMotion, identifiquei alguns problemas:
-• Falta de padronização nas nomenclaturas (combinando idiomas como pt-br e en, além de nomes pouco descritivos);
-• Ausência de documentação (como comentários ou resumos do código);
-• O método estava isolado, sem uma estrutura que favorecesse sua reutilização.
-Para resolver essas questões, tomei as seguintes ações:
-1. Renomeei variáveis e métodos utilizando nomenclaturas descritivas e consistentes.
-2.     2. Adicionei comentários explicativos e sumários para melhorar a compreensão e manutenção do código.
-3.     3. Refatorei o método, alocando-o em uma classe chamada Graphics. Dessa forma, centralizei a lógica relacionada à geração de gráficos, promovendo maior flexibilidade e organização.
-4. Implementei todos os requisitos obrigatórios e quase todos os opcionais. A única exceção foi o requisito opcional que permitiria simular múltiplos resultados, pois sua implementação poderia entrar em conflito com a funcionalidade de personalização do gráfico.
-5. Apesar disso, adicionei melhorias para enriquecer a experiência do usuário, como:
-6.     • Exibição de grid e escala numérica no gráfico;
-7.     • Um botão para mostrar/ocultar configurações de layout gráfico.
-8. Como não tenho familiaridade aprofundada com o conceito de Brownian Motion, optei por manter os inputs como campos numéricos. Contudo, caso houvesse orientação adicional, poderia ajustar algumas entradas para sliders ou steppers, o que já foi aplicado em parte no menu de configurações de layout.
-9. Por fim, para melhorar ainda mais a usabilidade, o layout foi ajustado para respeitar a preferência do usuário, suportando os modos light e dark.
+Falta de padronização nas nomenclaturas (mistura de idiomas e nomes pouco descritivos);
+Ausência de documentação clara (comentários e sumários);
+Isolamento do método, dificultando sua reutilização.
+As principais melhorias realizadas foram:
+
+Padronização e renomeação de variáveis e métodos com nomenclaturas consistentes e descritivas.
+Adição de comentários explicativos e sumários para facilitar a manutenção e a compreensão do código.
+Reestruturação do método, movendo-o para uma classe chamada Graphics. Essa centralização permite organizar e reutilizar lógicas relacionadas à geração de gráficos.
+Funcionalidades
+Foram implementados todos os requisitos obrigatórios e quase todos os opcionais. O requisito opcional para simulação de múltiplos resultados foi omitido, pois sua implementação poderia entrar em conflito com a funcionalidade de personalização do gráfico.
+
+Entretanto, várias melhorias foram adicionadas para enriquecer a experiência do usuário, incluindo:
+
+Grid e escala numérica para visualização mais clara dos dados.
+Botão de configuração para mostrar/ocultar opções de layout do gráfico.
+Suporte aos modos light e dark, respeitando a preferência do usuário.
 
     
 Android
